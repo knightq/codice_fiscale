@@ -6,7 +6,7 @@ Utility to check italian fiscal code on Rails 3+
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'codice_fiscale', '~> 1.0'
+gem 'codice_fiscale',           '~> 0.0.1', git: 'https://github.com/knightq/codice_fiscale.git'
 ```
 
 And then execute:
