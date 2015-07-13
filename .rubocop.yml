@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - Gemfile.lock
+Encoding:
+  Enabled: false
+Metrics/LineLength:
+  Max: 300
+MethodLength:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
