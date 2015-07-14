@@ -44,11 +44,11 @@ module CodiceFiscale
   end
 
   def self.birthdate(cf, century = '19')
-    Date.parse(birthyear(cf, century) + birthmonth(cf) + day_part(cf))
+    Date.parse(birthyear(cf, century) + birthmonth(cf) + birthday(cf))
   end
 
   def self.birthday(cf)
-    male? ? day_part(cf) : (day_part(cf).to_i - 40).to_s
+    male?(cf) ? day_part(cf) : (day_part(cf).to_i - 40).to_s
   end
 
   def self.birthmonth(cf)

@@ -3,5 +3,3 @@ it:
     errors:
       codice_fiscale:
         invalid_format: il formato non è valido
-      partita_iva:
-        invalid_format: il formato non è valido
